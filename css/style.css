@@ -8,17 +8,42 @@ html{
     font-size: 100%;
 }
 
-
-.container {
-    background-color: red;
-    height: 100vh;
+.vh {
     width: 100%;
+    height: 100vh;
     position: relative;
 }
 
-.scarpe {
+
+  
+.container-img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+#bottom-text{
+    color: green;
+}
+
+.scarpe {
+    width: 100%;
+}
+
+.top {
+    background-color: red;
+}
+
+.medium {
+    background-color: green;
+}
+
+.bottom {
+    background-color: yellow;
 }
