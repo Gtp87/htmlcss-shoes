@@ -6,13 +6,14 @@
 
 html{
     font-size: 100%;
+    scroll-behavior: smooth;
 }
 
 .nav {
     position: fixed;
     z-index: 10;
     right: 2em;
-    top: 2em;
+    top: 1em;
 }
 
 ul li {
@@ -20,19 +21,24 @@ ul li {
     list-style-type: none;
     border-radius: 50%;
     background-color: white;
-    width: 3em;
-    height: 3em;
-    line-height: 3em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
     text-align: center;
+    margin: 1em;
 }
 
-a{
+a {
     display: block;
     text-decoration: none;
     color: black;
     font-weight: bolder;
     height: 100%;
     width: 100%;
+}
+
+ul li:hover {
+    box-shadow: 0 8px 15px;
 }
 
 .vh {
@@ -51,7 +57,7 @@ a{
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     color: yellow;
 }
