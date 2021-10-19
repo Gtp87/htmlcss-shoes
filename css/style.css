@@ -11,12 +11,17 @@ html{
 .nav {
     position: fixed;
     z-index: 10;
-    right: 0;
+    right: 2em;
+    top: 2em;
 }
 
 ul li {
     display: inline-block;
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .vh {
@@ -35,7 +40,7 @@ ul li {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     color: yellow;
 }
